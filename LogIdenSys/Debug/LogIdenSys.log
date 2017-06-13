@@ -1,0 +1,41 @@
+﻿生成启动时间为 2017/6/13 7:36:23。
+     1>项目“c:\Users\ASUS\documents\visual studio 2012\Projects\LogIdenSys\LogIdenSys\LogIdenSys.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Programs\VS2012\VC\bin\CL.exe /c /I"D:\Program Files\boost_1_64_0" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\programs\vs2012\vc\include\xutility(2176): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\programs\vs2012\vc\include\xutility(2157) : 参见“std::_Copy_impl”的声明
+                 d:\program files\boost_1_64_0\boost\algorithm\string\detail\classification.hpp(102): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=const char *
+                 ]
+                 d:\program files\boost_1_64_0\boost\algorithm\string\classification.hpp(206): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)”的引用
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 d:\program files\boost_1_64_0\boost\algorithm\string\classification.hpp(206): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)”的引用
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 c:\users\asus\documents\visual studio 2012\projects\logidensys\logidensys\main.cpp(12): 参见对正在编译的函数 模板 实例化“boost::algorithm::detail::is_any_ofF<CharT> boost::algorithm::is_any_of<const char[3]>(RangeT (&))”的引用
+                 with
+                 [
+                     CharT=char,
+                     RangeT=const char [3]
+                 ]
+       Link:
+         C:\Programs\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\asus\documents\visual studio 2012\Projects\LogIdenSys\Debug\LogIdenSys.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program Files\boost_1_64_0\stage\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\asus\documents\visual studio 2012\Projects\LogIdenSys\Debug\LogIdenSys.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\asus\documents\visual studio 2012\Projects\LogIdenSys\Debug\LogIdenSys.lib" /MACHINE:X86 Debug\main.obj
+         LogIdenSys.vcxproj -> c:\users\asus\documents\visual studio 2012\Projects\LogIdenSys\Debug\LogIdenSys.exe
+     1>已完成生成项目“c:\Users\ASUS\documents\visual studio 2012\Projects\LogIdenSys\LogIdenSys\LogIdenSys.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.98
